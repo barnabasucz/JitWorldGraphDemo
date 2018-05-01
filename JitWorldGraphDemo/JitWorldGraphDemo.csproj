@@ -53,8 +53,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="DirectionMapping.cs" />
     <Compile Include="Director.cs" />
+    <Compile Include="DiskReader.cs" />
     <Compile Include="RoomNumber.cs" />
     <Compile Include="TravelDirection.cs" />
     <Compile Include="WorldCell.cs" />
