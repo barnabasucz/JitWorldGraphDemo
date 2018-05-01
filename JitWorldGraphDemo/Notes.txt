@@ -1,0 +1,16 @@
+﻿- Draw "unloaded" rooms as grey outline squares
+- Draw "loaded" rooms as the appropriate color filled squares
+- A special directory serves as the "local installation" folder.
+- A separate directory (still on the test machine) serves as the remote server that serves the content files.
+- Check whether adjacent rooms need to be installed ("Downloaded") by checking in-memory records;
+   don't simply check for the existance of the file.  (Or for the first pass, just check the file system for simplicity?)
+- Flashing yellow "cursor" indicates which room the player is in.
+- WPF buttons on the UI serve to move the player from room to room.
+- Reaching the "Goal" room ends the game in "victory".  (Demo, not game, but want to make it game-like)
+
+
+To begin, all rooms are the same size; the only difference is the background color.
+Eventually, perhaps make the rooms various sizes, or use SVG for their outlines.
+Would then need to calculate bounding boxes in order to align rooms physically probable.  For
+this reason, might be better to start with various rectangles to get the spacing right, then move to SVG rooms with bounding rectangles.
+
